@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Repositório arquivado
+    url: https://github.com/ESousa97/DesafioJava1
+    about: Repositório mantido público apenas para estudo, sem garantia de suporte.
+  - name: Security disclosure
+    url: https://github.com/ESousa97/DesafioJava1/security/policy
+    about: Use o canal de segurança para reportar vulnerabilidades.

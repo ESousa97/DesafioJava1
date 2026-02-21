@@ -1,0 +1,34 @@
+name: Feature request
+description: Propor melhoria funcional ou técnica
+title: "feat: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **AVISO: Este repositório está arquivado e mantido público apenas para fins de estudo. Não há garantia de resposta, revisão ou correção.**
+
+  - type: input
+    id: problem
+    attributes:
+      label: Problema a ser resolvido
+      description: Qual dor atual esta feature resolve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposta
+      description: Descreva a solução sugerida e impacto esperado
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternativas consideradas
+      description: Cite opções avaliadas, se houver
+  - type: textarea
+    id: additional
+    attributes:
+      label: Contexto adicional

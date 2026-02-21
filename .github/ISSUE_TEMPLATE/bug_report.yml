@@ -1,0 +1,45 @@
+name: Bug report
+description: Reportar comportamento incorreto no projeto
+title: "bug: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **AVISO: Este repositório está arquivado e mantido público apenas para fins de estudo. Não há garantia de resposta, revisão ou correção.**
+
+        Obrigado por reportar. Preencha os dados abaixo para permitir reprodução objetiva.
+  - type: input
+    id: summary
+    attributes:
+      label: Resumo
+      description: Descrição curta do problema
+      placeholder: Ex. Transferência com valor negativo não exibe mensagem esperada
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Passos para reproduzir
+      description: Lista numerada com entradas e resultado observado
+      placeholder: |
+        1. Executar ./mvnw.cmd -q exec:java -Dexec.mainClass="io.github.esousa97.desafio.DesafioApplication"
+        2. Selecionar opção 3
+        3. Informar valor -10
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Comportamento esperado
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Ambiente
+      description: SO, versão do Java, comando executado
+      placeholder: Windows 11, Java 21.0.8 LTS
+    validations:
+      required: true
